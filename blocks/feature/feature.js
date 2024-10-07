@@ -1,4 +1,4 @@
-import { fetchPlaceholders } from '../../scripts/aem.js';
+import { fetchPlaceholders } from '../../scripts/lib-franklin.js';
 
 export default async function decorate(block) {
   const mediaWrapper = document.createElement('div');
